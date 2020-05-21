@@ -3,29 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D702AD9024745B96000C44CD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D702AD8F24745B96000C44CD /* Home.storyboard */; };
+		D702AD9224745C20000C44CD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702AD9124745C20000C44CD /* HomeVC.swift */; };
+		D702AD942474674B000C44CD /* AllProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702AD932474674B000C44CD /* AllProduct.swift */; };
+		D702AD9624746834000C44CD /* NetworkManagerForProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702AD9524746834000C44CD /* NetworkManagerForProduct.swift */; };
+		D702AD9824746FCF000C44CD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702AD9724746FCF000C44CD /* CollectionViewCell.swift */; };
+		D702AD9A24748CB5000C44CD /* CartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702AD9924748CB5000C44CD /* CartResponse.swift */; };
+		D702AD9C2474AFFA000C44CD /* ITEMMODEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702AD9B2474AFF9000C44CD /* ITEMMODEL.swift */; };
+		D702AD9E2474B2E2000C44CD /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702AD9D2474B2E2000C44CD /* HomeCollectionViewCell.swift */; };
+		D702ADA02474C494000C44CD /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702AD9F2474C494000C44CD /* DetailsVC.swift */; };
+		D702ADA22474C63F000C44CD /* Compines.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702ADA12474C63F000C44CD /* Compines.swift */; };
+		D702ADA42474C762000C44CD /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702ADA32474C762000C44CD /* HomeTableViewCell.swift */; };
+		D702ADA62474D049000C44CD /* OrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702ADA52474D049000C44CD /* OrderResponse.swift */; };
 		D745DA012473762300D4833B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D745DA002473762300D4833B /* AppDelegate.swift */; };
 		D745DA032473762300D4833B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D745DA022473762300D4833B /* SceneDelegate.swift */; };
-		D745DA052473762300D4833B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D745DA042473762300D4833B /* ViewController.swift */; };
+		D745DA052473762300D4833B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D745DA042473762300D4833B /* LoginVC.swift */; };
 		D745DA082473762300D4833B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D745DA062473762300D4833B /* Main.storyboard */; };
 		D745DA0B2473762300D4833B /* Dabberha_APP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D745DA092473762300D4833B /* Dabberha_APP.xcdatamodeld */; };
 		D745DA0D2473762500D4833B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D745DA0C2473762500D4833B /* Assets.xcassets */; };
 		D745DA102473762500D4833B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D745DA0E2473762500D4833B /* LaunchScreen.storyboard */; };
+		D745DA182473767E00D4833B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D745DA172473767E00D4833B /* LoginModel.swift */; };
+		D760EE452473809D0052726E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760EE442473809D0052726E /* BaseViewController.swift */; };
+		D760EE472473820A0052726E /* Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760EE462473820A0052726E /* Extenstion.swift */; };
+		D760EE49247382EB0052726E /* NetworkManagetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760EE48247382EB0052726E /* NetworkManagetUser.swift */; };
+		D760EE4B2473839C0052726E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760EE4A2473839C0052726E /* API.swift */; };
+		D760EE4D24738C380052726E /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760EE4C24738C380052726E /* RegisterModel.swift */; };
+		D760EE4F247393B00052726E /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760EE4E247393B00052726E /* RegisterVC.swift */; };
+		D8C6BD7AD17C7CB038738C7C /* Pods_Dabberha_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C8725776E56E743DD475244 /* Pods_Dabberha_APP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EBF36DA7ED0A745B7104CDD /* Pods-Dabberha_APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dabberha_APP.debug.xcconfig"; path = "Target Support Files/Pods-Dabberha_APP/Pods-Dabberha_APP.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8725776E56E743DD475244 /* Pods_Dabberha_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dabberha_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C30785B48B08C17BA15BD6 /* Pods-Dabberha_APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dabberha_APP.release.xcconfig"; path = "Target Support Files/Pods-Dabberha_APP/Pods-Dabberha_APP.release.xcconfig"; sourceTree = "<group>"; };
+		D702AD8F24745B96000C44CD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		D702AD9124745C20000C44CD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D702AD932474674B000C44CD /* AllProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProduct.swift; sourceTree = "<group>"; };
+		D702AD9524746834000C44CD /* NetworkManagerForProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerForProduct.swift; sourceTree = "<group>"; };
+		D702AD9724746FCF000C44CD /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D702AD9924748CB5000C44CD /* CartResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartResponse.swift; sourceTree = "<group>"; };
+		D702AD9B2474AFF9000C44CD /* ITEMMODEL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITEMMODEL.swift; sourceTree = "<group>"; };
+		D702AD9D2474B2E2000C44CD /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D702AD9F2474C494000C44CD /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		D702ADA12474C63F000C44CD /* Compines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compines.swift; sourceTree = "<group>"; };
+		D702ADA32474C762000C44CD /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D702ADA52474D049000C44CD /* OrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderResponse.swift; sourceTree = "<group>"; };
 		D745D9FD2473762300D4833B /* Dabberha_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dabberha_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D745DA002473762300D4833B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D745DA022473762300D4833B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D745DA042473762300D4833B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D745DA042473762300D4833B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D745DA072473762300D4833B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D745DA0A2473762300D4833B /* Dabberha_APP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dabberha_APP.xcdatamodel; sourceTree = "<group>"; };
 		D745DA0C2473762500D4833B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D745DA0F2473762500D4833B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D745DA112473762500D4833B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D745DA172473767E00D4833B /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		D760EE442473809D0052726E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D760EE462473820A0052726E /* Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstion.swift; sourceTree = "<group>"; };
+		D760EE48247382EB0052726E /* NetworkManagetUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagetUser.swift; sourceTree = "<group>"; };
+		D760EE4A2473839C0052726E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D760EE4C24738C380052726E /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		D760EE4E247393B00052726E /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +75,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C6BD7AD17C7CB038738C7C /* Pods_Dabberha_APP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EC544D6403BB5B47457F952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C8725776E56E743DD475244 /* Pods_Dabberha_APP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D702ADA72474DDA1000C44CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D702AD8F24745B96000C44CD /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D702ADA82474DDB1000C44CD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D702AD9724746FCF000C44CD /* CollectionViewCell.swift */,
+				D702ADA32474C762000C44CD /* HomeTableViewCell.swift */,
+				D702AD9D2474B2E2000C44CD /* HomeCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D702ADA92474DDBA000C44CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D702AD932474674B000C44CD /* AllProduct.swift */,
+				D702AD9924748CB5000C44CD /* CartResponse.swift */,
+				D702ADA12474C63F000C44CD /* Compines.swift */,
+				D702AD9B2474AFF9000C44CD /* ITEMMODEL.swift */,
+				D702ADA52474D049000C44CD /* OrderResponse.swift */,
+				D702ADAA2474DDCF000C44CD /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D702ADAA2474DDCF000C44CD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D702AD9524746834000C44CD /* NetworkManagerForProduct.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D702ADAB2474DDF4000C44CD /* C */ = {
+			isa = PBXGroup;
+			children = (
+				D702AD9124745C20000C44CD /* HomeVC.swift */,
+				D702AD9F2474C494000C44CD /* DetailsVC.swift */,
+				D702ADA82474DDB1000C44CD /* Cell */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		D702ADAC2474DE07000C44CD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D760EE512473A27D0052726E /* Helper */,
+				D702ADA92474DDBA000C44CD /* Model */,
+				D702ADAB2474DDF4000C44CD /* C */,
+				D702ADA72474DDA1000C44CD /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		D745D9F42473762300D4833B = {
 			isa = PBXGroup;
 			children = (
 				D745D9FF2473762300D4833B /* Dabberha_APP */,
 				D745D9FE2473762300D4833B /* Products */,
+				E9F425DAFB11B38D5D73BFA8 /* Pods */,
+				8EC544D6403BB5B47457F952 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +171,80 @@
 		D745D9FF2473762300D4833B /* Dabberha_APP */ = {
 			isa = PBXGroup;
 			children = (
+				D760EE4A2473839C0052726E /* API.swift */,
 				D745DA002473762300D4833B /* AppDelegate.swift */,
 				D745DA022473762300D4833B /* SceneDelegate.swift */,
-				D745DA042473762300D4833B /* ViewController.swift */,
-				D745DA062473762300D4833B /* Main.storyboard */,
-				D745DA0C2473762500D4833B /* Assets.xcassets */,
+				D702ADAC2474DE07000C44CD /* Home */,
+				D760EE552473A2D80052726E /* Login+Register */,
 				D745DA0E2473762500D4833B /* LaunchScreen.storyboard */,
 				D745DA112473762500D4833B /* Info.plist */,
+				D745DA0C2473762500D4833B /* Assets.xcassets */,
 				D745DA092473762300D4833B /* Dabberha_APP.xcdatamodeld */,
 			);
 			path = Dabberha_APP;
+			sourceTree = "<group>";
+		};
+		D760EE502473A2730052726E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D745DA042473762300D4833B /* LoginVC.swift */,
+				D760EE4E247393B00052726E /* RegisterVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D760EE512473A27D0052726E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D760EE462473820A0052726E /* Extenstion.swift */,
+				D760EE442473809D0052726E /* BaseViewController.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D760EE522473A2A00052726E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D745DA172473767E00D4833B /* LoginModel.swift */,
+				D760EE4C24738C380052726E /* RegisterModel.swift */,
+				D760EE532473A2AB0052726E /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D760EE532473A2AB0052726E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D760EE48247382EB0052726E /* NetworkManagetUser.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D760EE542473A2BE0052726E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D745DA062473762300D4833B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D760EE552473A2D80052726E /* Login+Register */ = {
+			isa = PBXGroup;
+			children = (
+				D760EE522473A2A00052726E /* Model */,
+				D760EE542473A2BE0052726E /* View */,
+				D760EE502473A2730052726E /* Controller */,
+			);
+			path = "Login+Register";
+			sourceTree = "<group>";
+		};
+		E9F425DAFB11B38D5D73BFA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EBF36DA7ED0A745B7104CDD /* Pods-Dabberha_APP.debug.xcconfig */,
+				A6C30785B48B08C17BA15BD6 /* Pods-Dabberha_APP.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D745DA142473762500D4833B /* Build configuration list for PBXNativeTarget "Dabberha_APP" */;
 			buildPhases = (
+				6550943C9B146B4BDB86B1E4 /* [CP] Check Pods Manifest.lock */,
 				D745D9F92473762300D4833B /* Sources */,
 				D745D9FA2473762300D4833B /* Frameworks */,
 				D745D9FB2473762300D4833B /* Resources */,
+				195C1799AE32D723EDD6DC60 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,20 +310,81 @@
 				D745DA102473762500D4833B /* LaunchScreen.storyboard in Resources */,
 				D745DA0D2473762500D4833B /* Assets.xcassets in Resources */,
 				D745DA082473762300D4833B /* Main.storyboard in Resources */,
+				D702AD9024745B96000C44CD /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		195C1799AE32D723EDD6DC60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dabberha_APP/Pods-Dabberha_APP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dabberha_APP/Pods-Dabberha_APP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dabberha_APP/Pods-Dabberha_APP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6550943C9B146B4BDB86B1E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dabberha_APP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D745D9F92473762300D4833B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D745DA052473762300D4833B /* ViewController.swift in Sources */,
+				D745DA182473767E00D4833B /* LoginModel.swift in Sources */,
+				D760EE49247382EB0052726E /* NetworkManagetUser.swift in Sources */,
+				D745DA052473762300D4833B /* LoginVC.swift in Sources */,
 				D745DA012473762300D4833B /* AppDelegate.swift in Sources */,
+				D702AD9624746834000C44CD /* NetworkManagerForProduct.swift in Sources */,
+				D702AD9E2474B2E2000C44CD /* HomeCollectionViewCell.swift in Sources */,
+				D702AD9824746FCF000C44CD /* CollectionViewCell.swift in Sources */,
+				D702ADA62474D049000C44CD /* OrderResponse.swift in Sources */,
+				D702AD9C2474AFFA000C44CD /* ITEMMODEL.swift in Sources */,
+				D702AD9A24748CB5000C44CD /* CartResponse.swift in Sources */,
+				D702ADA42474C762000C44CD /* HomeTableViewCell.swift in Sources */,
+				D760EE4F247393B00052726E /* RegisterVC.swift in Sources */,
+				D702ADA02474C494000C44CD /* DetailsVC.swift in Sources */,
+				D760EE472473820A0052726E /* Extenstion.swift in Sources */,
 				D745DA0B2473762300D4833B /* Dabberha_APP.xcdatamodeld in Sources */,
+				D760EE4D24738C380052726E /* RegisterModel.swift in Sources */,
 				D745DA032473762300D4833B /* SceneDelegate.swift in Sources */,
+				D702AD9224745C20000C44CD /* HomeVC.swift in Sources */,
+				D702AD942474674B000C44CD /* AllProduct.swift in Sources */,
+				D760EE4B2473839C0052726E /* API.swift in Sources */,
+				D760EE452473809D0052726E /* BaseViewController.swift in Sources */,
+				D702ADA22474C63F000C44CD /* Compines.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +526,7 @@
 		};
 		D745DA152473762500D4833B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBF36DA7ED0A745B7104CDD /* Pods-Dabberha_APP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +544,7 @@
 		};
 		D745DA162473762500D4833B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C30785B48B08C17BA15BD6 /* Pods-Dabberha_APP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
